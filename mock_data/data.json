@@ -1,0 +1,63 @@
+[
+    {
+        "template": "Name",
+        "values": {
+            "first_name": "First name",
+            "last_name": "Last name"
+        },
+        "submit_action": "Continue",
+        "next_step": {
+            "template": "DateOfBirthScreen",
+            "values": {
+                "day": "Day",
+                "month": "Month",
+                "year": "Year"
+            },
+            "submit_action": "Continue"
+        }
+    },
+    {
+        "template": "DateOfBirth",
+		"values": {
+			"day": "Day",
+			"month": "Month",
+			"year": "Year"
+		},
+        "submit_action": "Continue",
+        "next_step": {
+            "template": "Gender",
+            "values": {
+                "gender": "Gender"
+            },
+            "submit_action": "Continue"
+        }
+    },
+    {
+        "template": "Gender",
+        "values": {
+            "gender": "Gender"
+        },
+        "submit_action": "Continue"
+    },
+    {
+        "template": "FavoriteWine",
+        "values": {
+            "favorite_wine": "Favorite wine"
+        },
+        "submit_action": "Continue"
+    },
+    {
+        "template": "FavoriteBeer",
+        "values": {
+            "favorite_beer": "Favorite beer"
+        },
+        "submit_action": "Continue"
+    },
+    {
+        "template": "AnyQuestions",
+        "values": {
+            "any_questions": "Any questions?"
+        },
+        "submit_action": "Finish"
+    }
+]
